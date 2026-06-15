@@ -9,7 +9,7 @@ define('DIR_TEMPLATE', '../templates/');
 // DB
 define('DB_HOSTNAME', 'localhost');
 define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'root');
 define('DB_DATABASE', 'wacdo');
 define('DB_PORT', '3306');
 ?>

@@ -23,7 +23,7 @@ class LoginView
                 exit;
             } else {
                 // C'est ici qu'on injecte le message d'erreur !
-                $message = "<div class=\"alert alert-danger\" style=\"color: red; margin-bottom: 15px;\">Impossible de se connecter avec les informations saisies</div>";
+                $message = '<div class="alert alert-danger" style="color: red; margin-bottom: 15px;">Impossible de se connecter avec les informations saisies</div>';
             }
         }
         // chargement du form (qui va maintenant recevoir le vrai contenu de $message)

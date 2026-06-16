@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
      rel="stylesheet">
-     <link rel="stylesheet" href="/wacdo/public/css/style.css">
+     <link rel="stylesheet" href="/wacdo/templates/style.css">
 </head>
 
 <body>
@@ -26,6 +26,8 @@
                 </div>
 
                 <input class="btn" type="submit" value="Se connecter" />
+                    <?= $message ?>
+
 
                
             </form>

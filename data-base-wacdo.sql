@@ -18,7 +18,11 @@ CREATE TABLE `employees` (
 
 
 /** pour créer de base des mdp j'ai utilisé la commande 
-INSERT INTO `employees` VALUES
+php -r "echo password_hash('admin123', PASSWORD_BCRYPT);" 
+php -r "echo password_hash('accueil', PASSWORD_BCRYPT);"
+php -r "echo password_hash('prep123', PASSWORD_BCRYPT);" **/
+INSERT INTO `employees` VALUES 
+
 (1,'admin@wacdo.fr','$2y$10$/8/sgYP5IlCLXR5QvUELKukZoyNXHsWV.HnN3limlsoXfJhXMPx8m','Roger','Federer'),
 (2,'accueil@wacdo.fr','$2y$10$6h49csdasj5ecl7s0kNyCezGO51ikFc5PqH0TeeKkJKRiAH3Cyr6a','Rafael','Nadal'),
 (3,'preparateur@wacdo.fr','$2y$10$MRNJYKLHpAWiF5N6IFILaeW67CvwyZh3AZiCMeaVs/88sdzyP9R7.','Novak','Djokovic');

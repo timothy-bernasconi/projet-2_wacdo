@@ -121,3 +121,4 @@ INSERT INTO `products`  VALUES
 (64,'MC Wrap Poulet Bacon',3.30,6),
 (65,'Ptit Wrap Chevre',2.60,6),
 (66,'Ptit Wrap Ranch',2.60,6);
+

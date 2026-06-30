@@ -24,6 +24,12 @@ $components = array(
         "view" => "LoginView", 
         "controller" => "LoginController"
     ),
+
+    "order" => array(
+        "model" => "OrderModel",
+        "view" => "OrderView",
+        "controller" => "OrderController"
+)
 );
 
 

@@ -12,8 +12,6 @@ class OrderView
     public function render() {
         // le controlleur doit chercher la liste des produits
         $products = $this->controller->getProducts();
-      
-
         // On charge le template. 
         require($this->template);
     }

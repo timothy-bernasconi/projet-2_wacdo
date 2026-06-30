@@ -29,7 +29,13 @@ $components = array(
         "model" => "OrderModel",
         "view" => "OrderView",
         "controller" => "OrderController"
-)
+),
+
+    "stock" => array(
+        "model" => "StockModel",
+        "view" => "StockView",
+        "controller" => "StockController"
+    )
 );
 
 

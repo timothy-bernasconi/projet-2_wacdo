@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="/wacdo/templates/style.css">
 </head>
 <body>
+
+ <?php
+    $home = true;
+    require_once("header.php");
+    ?>
+
+    
     <div class="stock-container">
         <h1 class="stock-title"> Stock produits </h1>
 

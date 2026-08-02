@@ -8,6 +8,11 @@
 </head>
 <body>
 
+ <?php
+    $home = true;
+    require_once("header.php");
+    ?>
+
 <div class="order-container">
 
     <header class="main-header">
